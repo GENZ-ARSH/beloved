@@ -60,7 +60,7 @@ export default function Cards({ setMusicPlaying, handleShowMainContent }) {
                     <QuestionCard
                         key="main-question"
                         emoji="🥰"
-                        question="Can you be mine forever?"
+                        question="Can you be mine paglu forever?"
                         onAnswer={(answer) => {
                             if (answer) {
                                 setCardState("yesResponse")

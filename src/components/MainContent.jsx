@@ -38,7 +38,7 @@ export default function MainContent() {
                     Our Special Story
                 </h1>
                 <div className="text-2xl md:text-3xl text-purple-700 mb-8 relative z-10">
-                    Hey Cutiepie, you are<br />my<FlipWords words={['sunshine', 'soulmate', 'everything', 'love', 'world']} className="text-nowrap" />
+                    Hey Cutiepie, you are<br />my<FlipWords words={['sunshine', 'bakchodi partner', 'paglu', 'vc partner', 'world']} className="text-nowrap" />
                 </div>
                 <motion.button
                     whileHover={{ scale: 1.05 }}
@@ -56,12 +56,12 @@ export default function MainContent() {
             <h2 className="text-3xl font-bold text-blue-600 mb-6 relative z-10">Our Journey</h2>
             <div className="space-y-4 flex-1 overflow-y-auto overflow-x-hidden rounded-xl custom-scrollbar">
                 {[
-                    { date: '14 February, 2022', event: 'Our Journey Began', emoji: '❤️' },
-                    { date: '1 March, 2022', event: 'First Movie Together', emoji: '🎬' },
-                    { date: '1 March, 2022', event: 'First Hug', emoji: '🤗' },
-                    { date: '5 May, 2022', event: 'First Trip Together', emoji: '✈️' },
-                    { date: '10 August, 2022', event: 'First Fight & Patch-up', emoji: '💬' },
-                    { date: '25 December, 2022', event: 'First Christmas Together', emoji: '🎄' },
+                    { date: '28 April, 2025', event: 'Our Journey Began', emoji: '❤️' },
+                    { date: '9 May, 2025', event: 'First Movie Together On Tele VC', emoji: '🎬' },
+                    { date: 'WAITING', event: 'First Hug', emoji: '🤗' },
+                    { date: 'WAITING', event: 'First Trip Together', emoji: '✈️' },
+                    { date: 'HEHEHE', event: 'First Fight & Patch-up', emoji: '💬' },
+                    { date: 'JANE DEH', event: 'First Christmas Together', emoji: '🎄' },
                 ]
                     .map((item, index) => (
                         <motion.div
